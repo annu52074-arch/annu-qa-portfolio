@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Annu Srivastava's QA portfolio featuring Selenium automation, manual testing, and REST API testing." />
+  <title>Annu Srivastava | QA Automation Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home"><span class="brand-mark">AS</span><span>Annu Srivastava</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact" class="nav-cta">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> OPEN TO QA FRESHER OPPORTUNITIES</div>
+        <h1>Testing with purpose.<br><span>Quality by design.</span></h1>
+        <p class="hero-lead">Hi, I’m <strong>Annu Srivastava</strong> — a BCA graduate (2026) building my career in software quality assurance and test automation.</p>
+        <p class="hero-sub">Interested in QA Engineer and Automation Test Engineer roles in Noida or remote.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my projects <span aria-hidden="true">↘</span></a>
+          <a class="button button-secondary" href="#contact">Get in touch</a>
+        </div>
+        <div class="quick-facts"><span>Java</span><i></i><span>Selenium WebDriver</span><i></i><span>Manual & API Testing</span></div>
+      </div>
+      <div class="profile-panel">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="profile-frame">
+          <img id="profilePhoto" src="assets/profile-photo.jpg" alt="Portrait of Annu Srivastava" onerror="this.style.display='none';document.getElementById('photoPlaceholder').style.display='flex';" />
+          <div id="photoPlaceholder" class="photo-placeholder"><span class="placeholder-icon">＋</span><strong>Add your photo</strong><small>Replace assets/profile-photo.jpg</small></div>
+        </div>
+        <div class="floating-card card-top"><span class="mini-icon">✓</span><span><strong>Quality mindset</strong><small>Detail-oriented testing</small></span></div>
+        <div class="floating-card card-bottom"><span class="mini-code">&lt;/&gt;</span><span><strong>Automation</strong><small>Java · Selenium · TestNG</small></span></div>
+        <div class="glow"></div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Areas of focus">
+      <div class="ticker-inner"><span>MANUAL TESTING</span><b>✳</b><span>SELENIUM AUTOMATION</span><b>✳</b><span>REST API TESTING</span><b>✳</b><span>BUG REPORTING</span><b>✳</b><span>TEST DOCUMENTATION</span></div>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading"><p class="section-kicker">01 / ABOUT ME</p><h2>Curious about bugs.<br><span>Committed to better software.</span></h2></div>
+      <div class="about-grid">
+        <p class="about-intro">I’m an entry-level QA professional focused on learning how to make software more reliable through structured testing, clear defect reports, and maintainable automation.</p>
+        <div class="about-details">
+          <div class="detail-row"><span>Education</span><strong>BCA Graduate · 2026</strong></div>
+          <div class="detail-row"><span>Based in</span><strong>Noida, Uttar Pradesh, India</strong></div>
+          <div class="detail-row"><span>Target roles</span><strong>QA Engineer · Automation Testing</strong></div>
+          <div class="detail-row"><span>Work preference</span><strong>Noida / Remote</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading"><p class="section-kicker">02 / SKILLS</p><h2>Tools and testing areas</h2><p class="section-description">A practical foundation for testing web applications and APIs.</p></div>
+        <div class="skills-grid">
+          <article class="skill-card"><div class="skill-icon">⌘</div><h3>Automation Testing</h3><p>Java · Selenium WebDriver · TestNG · Page Object Model (POM)</p><span class="skill-tag">UI test automation</span></article>
+          <article class="skill-card"><div class="skill-icon">◎</div><h3>Manual Testing</h3><p>Test scenarios · Test cases · Functional testing · Defect reporting</p><span class="skill-tag">Test design</span></article>
+          <article class="skill-card"><div class="skill-icon">{ }</div><h3>API Testing</h3><p>Postman · REST APIs · GET, POST, PUT, DELETE · Response validation</p><span class="skill-tag">Request / response</span></article>
+          <article class="skill-card"><div class="skill-icon">▤</div><h3>Test Workflow</h3><p>JIRA fundamentals · Test documentation · Agile / Scrum concepts</p><span class="skill-tag">Quality process</span></article>
+        </div>
+        <p class="small-note">Skills listed reflect my learning and project work; proficiency may vary by tool and topic.</p>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading"><p class="section-kicker">03 / SELECTED PROJECTS</p><h2>Learning by building</h2><p class="section-description">Project summaries below describe areas of work. Add repository links and exact test results when ready.</p></div>
+      <div class="projects-grid">
+        <article class="project-card featured-project">
+          <div class="project-visual visual-automation"><div class="window-bar"><i></i><i></i><i></i><span>vTiger CRM · Test Suite</span></div><div class="mock-dashboard"><div class="mock-sidebar"><b></b><b></b><b></b><b></b></div><div class="mock-main"><div class="mock-title"></div><div class="mock-stats"><i></i><i></i><i></i></div><div class="mock-table"><b></b><b></b><b></b><b></b></div><div class="mock-check">✓ Test scenarios</div></div></div><span class="visual-label">01 / UI AUTOMATION</span></div>
+          <div class="project-content"><div class="project-topline"><span class="project-type">Automation Testing</span><span class="project-number">01</span></div><h3>vTiger CRM Automation</h3><p>UI automation project focused on key CRM workflows such as login, leads, and contacts.</p><div class="tag-list"><span>Java</span><span>Selenium WebDriver</span><span>TestNG</span><span>POM</span></div><ul><li>Organize page elements and actions using the Page Object Model.</li><li>Create reusable test scripts for selected user workflows.</li><li>Run and review tests through TestNG.</li></ul>
+            <a class="text-link" href="#contact">Ask me about this project <span>↗</span></a></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual visual-manual"><div class="test-sheet"><div class="sheet-head"><span>Test case</span><span>Status</span></div><div class="sheet-row"><span>Valid login</span><em class="pass">Ready</em></div><div class="sheet-row"><span>Invalid password</span><em class="review">Review</em></div><div class="sheet-row"><span>Required fields</span><em class="pass">Ready</em></div><div class="sheet-row"><span>Error message</span><em class="review">Review</em></div></div><span class="visual-label">02 / MANUAL QA</span></div>
+          <div class="project-content"><div class="project-topline"><span class="project-type">Manual Testing</span><span class="project-number">02</span></div><h3>E-commerce Application Testing</h3><p>Manual testing practice covering user-facing e-commerce flows and defect documentation.</p><div class="tag-list"><span>Test Cases</span><span>Functional Testing</span><span>JIRA</span></div><ul><li>Prepare positive and negative test scenarios.</li><li>Check expected versus actual results.</li><li>Document reproducible defects with clear steps and evidence.</li></ul><a class="text-link" href="#contact">Ask me about this project <span>↗</span></a></div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual visual-api"><div class="api-window"><div class="api-line"><b>GET</b><span>/api/products</span><i>200 OK</i></div><div class="api-code"><span>{</span><p> "status": "success",</p><p> "data": [ ... ]</p><span>}</span></div><div class="api-tabs"><span>Params</span><span>Headers</span><span class="selected">Response</span></div></div><span class="visual-label">03 / REST API</span></div>
+          <div class="project-content"><div class="project-topline"><span class="project-type">API Testing</span><span class="project-number">03</span></div><h3>REST API Testing with Postman</h3><p>API testing practice using common HTTP methods and response validation.</p><div class="tag-list"><span>Postman</span><span>REST API</span><span>JSON</span></div><ul><li>Send GET, POST, PUT, and DELETE requests.</li><li>Inspect status codes, response bodies, and headers.</li><li>Check responses against expected behavior.</li></ul><a class="text-link" href="#contact">Ask me about this project <span>↗</span></a></div>
+        </article>
+      </div>
+      <div class="honesty-note"><span>ⓘ</span><p><strong>Project transparency:</strong> Replace these summaries with your exact completed work, screenshots, test reports, and repository links where available. No unverified defect counts or results are claimed.</p></div>
+    </section>
+
+    <section class="section learning-section">
+      <div class="container learning-inner"><div><p class="section-kicker">04 / CONTINUOUS LEARNING</p><h2>Building a stronger QA foundation.</h2><p>Currently strengthening practical skills in test design, UI automation, API validation, SQL, and interview-ready QA concepts.</p></div><div class="learning-list"><div><span>01</span>Manual testing fundamentals</div><div><span>02</span>Selenium WebDriver with Java</div><div><span>03</span>REST API testing with Postman</div><div><span>04</span>SQL for testing</div></div></div>
+    </section>
+
+    <section class="section container contact-section" id="contact">
+      <div class="contact-panel"><div><p class="section-kicker">05 / CONTACT</p><h2>Let’s talk about<br><span>quality.</span></h2><p>I’m open to entry-level QA and automation testing opportunities in Noida or remote.</p></div><div class="contact-actions"><a class="button button-primary" href="mailto:Annu52074@gmail.com">Email me ↗</a><button class="button button-secondary" id="copyEmail" type="button" data-email="Annu52074@gmail.com">Copy email</button><p class="copy-feedback" id="copyFeedback" aria-live="polite"></p><p class="contact-email">Annu52074@gmail.com</p></div></div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#home"><span class="brand-mark">AS</span><span>Annu Srivastava</span></a><p>Designed with a quality-first mindset. © <span id="year"></span> Annu Srivastava</p><a href="#home" class="back-top">Back to top ↑</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
